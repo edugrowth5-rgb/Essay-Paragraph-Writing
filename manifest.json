@@ -1,26 +1,22 @@
 {
-  "name": "Essay & Paragraph Writing Guide",
-  "short_name": "EssayGuide",
-  "description": "10+2 and Intermediate Essay Writing Guide for Students",
+  "name": "EduGrowth Essay Writing",
+  "short_name": "EduGrowth",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64",
-      "type": "image/x-icon"
-    },
-    {
       "src": "logo192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "192x192"
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "sizes": "512x512"
+      "purpose": "any maskable"
     }
   ]
 }
