@@ -1,4 +1,4 @@
-const CACHE_NAME = 'edugrowth-essay-v1';
+const CACHE_NAME = 'edugrowth-essay-v2';
 // Jo files offline chahiye unki list yahan hai
 const urlsToCache = [
   './',
