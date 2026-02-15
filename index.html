@@ -9,6 +9,9 @@
     <meta name="theme-color" content="#3498db">
     
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2196f3">
 
     <style>
         :root {
@@ -775,6 +778,14 @@ In conclusion, the habit of reading is a lifelong investment that pays the riche
         }
 
         function goBackToList() { showPage('list'); }
+          // Service Worker ko register karna
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('App is ready for Offline use!'))
+        .catch(err => console.log('Service Worker failed:', err));
+    });
+  }
     </script>
 </body>
 </html>
