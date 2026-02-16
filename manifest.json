@@ -1,22 +1,22 @@
 {
-  "name": "EduGrowth Essay Writing",
-  "short_name": "EduGrowth",
+  "name": "Essay & Paragraph Writing Guide",
+  "short_name": "WritingGuide",
+  "description": "Improve your writing skills with a collection of essays and paragraphs.",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2196f3",
+  "background_color": "#2c3e50",
+  "theme_color": "#3498db",
+  "orientation": "portrait",
   "icons": [
     {
-      "src": "logo192.png",
+      "src": "1771252505143.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
+      "src": "1771252505143.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
