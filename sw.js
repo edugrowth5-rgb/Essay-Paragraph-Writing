@@ -1,4 +1,4 @@
-const CACHE_NAME = 'writing-guide-v1';
+const CACHE_NAME = 'writing-guide-v1.1';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
