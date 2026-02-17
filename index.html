@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Essay & Paragraph Writing Guide</title>
     
-    <link rel="icon" type="image/png" href="1771252505143.png">
-    <link rel="apple-touch-icon" href="1771252505143.png">
+    <link rel="icon" type="image/png" href="1000047883-removebg-preview.png">
+    <link rel="apple-touch-icon" href="1000047883-removebg-preview.png">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#3498db">
     
@@ -29,10 +29,12 @@
             --side-bg: #2c3e50;
             --primary: #3498db;
             --secondary: #2ecc71;
+            --hindi-btn: #e67e22; 
             --bg-light: #f4f7f6;
             --white: #ffffff;
-            --text-dark: #2c3e50;
-            --reading-font: 'Lora', serif; /* Essay ke liye professional font */
+            --text-dark: #1a1a1a; 
+            --reading-font: 'Lora', serif;
+            --hindi-font: 'Noto Sans Devanagari', sans-serif;
         }
 
         * { box-sizing: border-box; }
@@ -59,7 +61,7 @@
         }
         .splash-content { text-align: center; animation: fadeIn 1s ease; }
         .splash-icon { font-size: 100px; display: block; margin-bottom: 20px; }
-        .splash-title { color: white; font-size: 28px; letter-spacing: 1px; margin: 0; }
+        .splash-title { color: white; font-size: 28px; letter-spacing: 2px; margin: 0; }
         .loader {
             margin: 30px auto 0;
             width: 40px; height: 40px;
@@ -126,6 +128,14 @@
             white-space: pre-wrap;
             letter-spacing: 0.3px;
         }
+                /* Hindi Style Update */
+        .is-hindi { 
+            font-family: var(--hindi-font) !important; 
+            font-size: 22px !important; 
+            color: #000000 !important; 
+            font-weight: 500 !important;
+            line-height: 1.8 !important;
+        }
         
         .back-pill { 
             margin-top: 35px; padding: 14px 30px; background: var(--side-bg); 
@@ -155,7 +165,7 @@
     <div id="splash-screen">
         <div class="splash-content">
             <span class="splash-icon">✍️</span>
-            <h1 class="splash-title">Essay & Paragraph<br>Writing Guide</h1>
+            <h1 class="splash-title">Essay & Paragraph<br>Writing Guide<br>By:Computer Se Sikho</h1>
             <div class="loader"></div>
         </div>
     </div>
@@ -169,6 +179,7 @@
             <li onclick="showPage('home')">🏠 Home</li>
             <li onclick="loadCategory('essay')">📚 Essays</li>
             <li onclick="loadCategory('paragraph')">📝 Paragraphs</li>
+            <li onclick="loadCategory('hindiEssay')">🇮🇳 Hindi निबंध</li>
             <li onclick="showPage('about')">ℹ️ About Us</li>
         </ul>
     </nav>
@@ -187,6 +198,7 @@
                 <div class="quick-slots">
                     <div class="slot-card" onclick="loadCategory('essay')">Essays</div>
                     <div class="slot-card para" onclick="loadCategory('paragraph')">Paragraphs</div>
+                    <div class="slot-card hindi" onclick="loadCategory('hindiEssay')">Hindi निबंध</div>
                 </div>
             </div>
         </section>
@@ -207,8 +219,8 @@
         <section id="aboutPage" class="content-section" style="display:none;">
             <div class="reading-area" style="text-align: center;">
                 <h2>About Us</h2>
-                <p>This application is designed to help students and writers explore a wide variety of writing topics easily.</p>
-                <p>Developed for academic excellence.</p>
+                 <p>This application is designed to help students and writers explore a wide variety of writing topics easily.</p>
+                <p>Developed for academic excellence by <b>Computer Se Sikho</b>.</p>
             </div>
         </section>
     </div>
@@ -742,6 +754,20 @@ Knowledge is the most valuable asset in the modern world, and reading is the pri
 Conclusion
 In conclusion, the habit of reading is a lifelong investment that pays the richest dividends. It is a source of joy, a fountain of knowledge, and a shield against ignorance. As Joseph Addison famously said, "Reading is to the mind what exercise is to the body." In a world that is constantly changing, those who read are better equipped to adapt, learn, and grow. Therefore, everyone, especially students, should make reading a daily ritual to unlock their full potential and lead a more enlightened life.`
 }
+            ],
+            hindiEssay:[      
+                {
+                    title: "मेरा भारत महान",
+                    content: `प्रस्तावना:\nभारत एक प्राचीन और गौरवशाली देश है। इसे 'आर्यावर्त' और 'हिंदुस्तान' के नाम से भी जाना जाता है। उत्तर में विशाल हिमालय इसकी रक्षा करता है, तो दक्षिण में हिंद महासागर इसके चरण धोता है।\n\nविविधता में एकता:\nभारत की सबसे बड़ी विशेषता 'विविधता में एकता' है। यहाँ विभिन्न धर्मों, भाषाओं और जातियों के लोग प्रेम और भाईचारे के साथ रहते हैं। यहाँ दिवाली, ईद, होली और क्रिसमस जैसे त्योहार मिल-जुलकर मनाए जाते हैं।\n\nप्राकृतिक और सांस्कृतिक वैभव:\nभारत की मिट्टी सोना उगलती है। यहाँ की नदियाँ जैसे गंगा, यमुना और ब्रह्मपुत्र सभ्यता की जीवनरेखा हैं। हमारे देश ने दुनिया को योग, आयुर्वेद और शून्य (Zero) का ज्ञान दिया है।\n\nनिष्कर्ष:\nआज मेरा भारत विज्ञान, अंतरिक्ष और तकनीक के क्षेत्र में दुनिया का नेतृत्व कर रहा है। मुझे भारतीय होने पर गर्व है और मैं अपने देश की सेवा के लिए हमेशा तैयार हूँ।`
+                },
+                {
+                    title: "प्रदूषण की समस्या",
+                    content: `प्रस्तावना:\nप्रदूषण आज पूरी दुनिया के लिए एक गंभीर संकट बन चुका है। प्राकृतिक पर्यावरण में हानिकारक पदार्थों का मिलना ही प्रदूषण है।\n\nप्रदूषण के प्रकार:\nमुख्यतः प्रदूषण चार प्रकार के होते हैं: वायु प्रदूषण, जल प्रदूषण, मृदा प्रदूषण और ध्वनि प्रदूषण। वाहनों और कारखानों का धुआं हवा को जहरीला बना रहा है।\n\nसमाधान:\nहमें अधिक से अधिक पेड़ लगाने चाहिए (वृक्षारोपण)। प्लास्टिक का उपयोग बंद करना होगा और सौर ऊर्जा जैसे प्राकृतिक स्रोतों को अपनाना होगा।\n\nनिष्कर्ष:\nयदि हमें अपनी आने वाली पीढ़ी को एक सुरक्षित भविष्य देना है, तो हमें आज ही पर्यावरण की रक्षा का संकल्प लेना होगा। "प्रदूषण हटाओ, पर्यावरण बचाओ।"`
+                },
+                {
+                    title: "समय का सदुपयोग",
+                    content: `प्रस्तावना:\nसमय दुनिया की सबसे मूल्यवान वस्तु है। धन खोने पर पुनः प्राप्त किया जा सकता है, लेकिन बीता हुआ समय कभी वापस नहीं आता।\n\nमहत्व:\nसफलता की कुंजी समय का सही उपयोग है। महान व्यक्तियों ने समय के हर पल का सम्मान किया है। विद्यार्थी जीवन में समय का महत्व और भी बढ़ जाता है।\n\nनिष्कर्ष:\nहमें आलस्य त्याग कर अपने कार्यों को समय पर पूरा करना चाहिए। जो समय को बर्बाद करता है, समय उसे बर्बाद कर देता है।`
+                }
             ]
         };
 
@@ -755,7 +781,12 @@ In conclusion, the habit of reading is a lifelong investment that pays the riche
             document.querySelectorAll('.content-section').forEach(s => s.style.display = 'none');
             document.getElementById(pageId + 'Page').style.display = 'block';
             
-            const titles = { 'home': 'Introduction', 'list': currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1), 'about': 'About Us', 'detail': 'Reading Mode' };
+            const titles = { 
+                'home': 'Introduction', 
+                'list': currentCategory === 'hindiEssay' ? 'हिंदी निबंध' : (currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1)), 
+                'about': 'About Us', 
+                'detail': 'Reading Mode' 
+            };
             document.getElementById('headerTitle').innerText = titles[pageId] || 'Guide';
 
             if(window.innerWidth < 768 && document.getElementById('sidebar').classList.contains('active')) {
@@ -772,7 +803,9 @@ In conclusion, the habit of reading is a lifelong investment that pays the riche
             data[cat].forEach((item, index) => {
                 const card = document.createElement('div');
                 card.className = 'topic-card';
-                card.innerHTML = `<h4>${item.title}</h4><p>Click to read the full text.</p>`;
+                if(cat === 'hindiEssay') card.style.borderLeftColor = 'var(--hindi-btn)';
+                card.innerHTML = `<h4 class="${cat === 'hindiEssay' ? 'is-hindi' : ''}">${item.title}</h4>
+                                 <p>${cat === 'hindiEssay' ? 'पूरा निबंध पढ़ने के लिए क्लिक करें।' : 'Click to read the full text.'}</p>`;
                 card.onclick = () => showArticle(index);
                 grid.appendChild(card);
             });
@@ -781,10 +814,22 @@ In conclusion, the habit of reading is a lifelong investment that pays the riche
         function showArticle(index) {
             document.querySelectorAll('.content-section').forEach(s => s.style.display = 'none');
             document.getElementById('detailPage').style.display = 'block';
-            document.getElementById('headerTitle').innerText = 'Reading Mode';
+            document.getElementById('headerTitle').innerText = currentCategory === 'hindiEssay' ? 'निबंध वाचन' : 'Reading Mode';
+            
             const article = data[currentCategory][index];
-            document.getElementById('articleTitle').innerText = article.title;
-            document.getElementById('articleBody').innerText = article.content;
+            const titleEl = document.getElementById('articleTitle');
+            const bodyEl = document.getElementById('articleBody');
+
+            titleEl.innerText = article.title;
+            bodyEl.innerText = article.content;
+
+            if(currentCategory === 'hindiEssay') {
+                titleEl.classList.add('is-hindi');
+                bodyEl.classList.add('is-hindi');
+            } else {
+                titleEl.classList.remove('is-hindi');
+                bodyEl.classList.remove('is-hindi');
+            }
             window.scrollTo(0,0);
         }
 
